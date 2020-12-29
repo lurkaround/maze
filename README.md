@@ -18,6 +18,7 @@ Project is created with:
 
 To run this project, simply fork it and open the index.html on your local machine:
 
+- Replace Main.js with Index.js for a simple demo of Matter.js
 - Link to matter.js is in the document head.
 - Main.js is the javascript for the game
-- Replace Main.js with Index.js for a simple demo of Matter.js
+- Change the amount of `cellsVertical` and `cellsHorizontal` in the `main.js` file for a more difficult maze

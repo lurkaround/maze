@@ -255,4 +255,7 @@ function simulate() {
   });
 }
 
-reset.addEventListener('click', simulate);
+reset.addEventListener('click', () => {
+  simulate();
+  document.querySelector('.winner').classList.add('hidden');
+});
